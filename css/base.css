@@ -1,0 +1,648 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+/* * {
+	box-sizing: border-box;
+} */
+
+html { 
+	background: url("../img/polmanac-bg.png") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Gill Sans', sans-serif;
+	line-height: 1.6;
+	height:100%;
+	width:100%;
+	overflow-x: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+	font-size: 1em;
+	margin: 0em;
+	color: black;
+}
+
+.container h4 {
+	font-family: 'Zapfino', script;
+}
+
+.container h3 {
+	font-family: 'Zapfino', script;
+}
+
+h1 a{
+	color: white;
+	font-size: 1.25em;
+	background-color: #0052A5;
+}
+
+h2 {
+	color: black;
+	margin-top: 0;
+}
+
+h3 {
+	font-size: 2em;
+	color: #E0162B;
+	margin-top: 0;
+}
+
+h4 {
+	font-size: 1.5em;
+	margin-bottom: 1.8em;
+	color: #0052A5;
+}
+
+.protitle {
+	font-size: 1.15em;
+	font-weight: bold;
+	color: black;
+	margin: 0em;
+	padding: 0em;
+}
+
+.district-title {
+	font-style: italic;
+}
+
+.district-numb {
+
+}
+
+.party {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+/* img {
+	max-width: 100%;
+} */
+
+ul, li {
+	list-style: none;
+}
+
+label {
+	align-items: center;
+}
+
+input {
+	width: 100%;
+	align: center;
+}
+
+textarea {
+	width: 100%;
+	align: center;
+}
+
+
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.35em;
+	margin: 0;
+	color: white;
+}
+
+.name a:hover {
+	color: #E0162B;
+}
+
+.name a, .main-nav a {
+	padding: 0px 0px 0px;
+	text-align: center;
+}
+
+/* .main-nav {
+	margin-top: 0px;
+	color: white;
+} */
+
+/* .main-nav {
+	width: 33%;
+} */
+
+.name a,
+.main-nav a {
+	font-size: 1em;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	margin: 0px 10px;
+	padding: 0px 0px;
+}
+
+.main-nav li a:hover {
+	color: white;
+	border-bottom: 3px solid #E0162B;
+}
+
+.main-nav a:visited {
+	color: white;
+}
+
+.main-nav a:link {
+	color: white;
+}
+
+.main-nav li a:active {
+	color: white;
+}
+
+/* The representative sidebar menu */
+.sidenav {
+	height: 90%;
+	/* height: 100%; Full-height: remove this if you want "auto" height */
+	width: 5%; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 0; /* Stay on top */
+	top: 0; /* Stay at the top */
+	right: 0; /* Stay to the right */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	/* padding: 80px 0; */
+  }
+
+  
+  .sidenav a {
+	padding: 2px 8px 2px 0px;
+	text-decoration: none;
+	font-size: .9em;
+	color: #818181;
+	display: block;
+  }
+
+  /* .sidenav a:hover {
+	color: #000000;
+  } */
+
+  .sidenav a:hover {
+	color: #E0162B;
+  }
+
+/* The senator sidebar */
+  .sidenav-senator {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: 5%; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	right: 0; /* Stay to the right */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	/* padding: 80px 0; */
+  }
+  
+  .sidenav-senator a {
+	padding: 2px 8px 2px 0px;
+	text-decoration: none;
+	font-size: .9em;
+	color: #818181;
+	display: block;
+  }
+
+  .sidenav-senator a:hover {
+	color: #E0162B;
+  }
+
+
+
+
+
+
+
+/* ---- Contact Us ---- */
+div#contactus{
+	width: 830px;
+	height: 650px;
+	margin: auto;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+div#form_sample{
+	text-align: center;
+	border: 1px solid #ccc;
+	width: 80%;
+	padding: 0 50px;
+	margin-top: 0px;
+	padding-bottom: 35px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+	border-radius: 6px;
+	background-color: #FFFFFF;
+}
+
+/* .container #contactus #form_sample form #demail {
+	justify-content: space-evenly;
+	align-items: center;
+} */
+
+/* #form_sample form input {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width:100%;
+} */
+
+div#contactus h2{
+	padding-top: 20px;
+}
+
+hr{
+	margin-top: 5px;
+}
+
+label{
+	font-size:16px;
+}
+
+input[type="text"]{
+	width:100%;
+	margin-top:10px;
+	height:35px;
+	margin-bottom:25px;
+	padding:10px;
+	border:3px solid #0052A5;
+}
+
+textarea{
+	width:100%;
+	border:3px solid #0052A5;
+	padding:10px;
+	margin-bottom:25px;
+	margin-top:10px;
+	height:100px;
+	resize:none;
+}
+
+input[type="submit"]{
+	width: 100%;
+	padding: 10px 45px;
+	background-color: #E0162B;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.container div#contactus div#form_sample hr {
+	align: center;
+}
+
+
+
+
+
+/* ---- Contact Us ---- */
+.contactForm {
+	width: 30%;
+}
+
+.inputField {
+	width: 30%;
+}
+
+.contactForm, .inputField {
+	align-content: center;
+}  
+
+
+.contact-container {
+	align-content: center;
+	width: 50%;
+}
+
+
+
+/* ---- Contact Us ---- */
+.contactme {
+	background-color: #a5a5a5;
+	color: black;
+	width: 50%;
+	
+}
+
+
+
+
+
+
+/* -------------------------------------
+CSS for Sidebar (optional)
+---------------------------------------- */
+/* div#fugo{
+float:right
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+    width: 100%;
+	position: fixed;
+	color: white;
+	background-color: #0052A5;
+	margin: 0px;
+	padding: 10px 0px;
+	list-style: none;
+    display: table;
+    table-layout: fixed;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, .75);
+	z-index: 1;
+}
+
+.main-nav, .name {
+	z-index: 1;
+}
+
+.container {
+	min-height: calc(100vh - 180px);
+	/* width: 800px; */
+	justify-content: flex-start;
+	overflow-x: hidden;
+}
+
+.col {
+	width: 100%;
+	height: auto;
+	margin: 50px;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.main-footer {
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	font-size: .75em;
+	color: gray;
+	text-align: center;
+}
+
+.submission p {
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+/* #a{
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	flex-grow: 1;
+} */
+
+
+
+
+
+
+/* ---- Page Elements ---- */
+
+/* .logo {
+	width: 190px;
+}
+
+.headline {
+	margin-bottom: 0;
+} */
+
+.propic {
+	width: 200px;
+}
+
+.profile {
+	width: auto;
+	padding: 10px;
+	margin: 0 10px 50px 10px;
+	background-color: #ececec;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);
+}
+
+.demlink a:hover {
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+}
+
+.demprofile {
+	width: auto;
+	padding: 10px;
+	margin: 50px 10px 0px 10px;
+	background-color: #ececec;
+	border-bottom: 3px solid #0052A5;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);
+}
+
+.repprofile {
+	width: auto;
+	padding: 10px;
+	margin: 50px 10px 0px 10px;
+	background-color: #ececec;
+	border-bottom: 3px solid #E0162B;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);
+}
+
+
+a[class="demlink"] {
+	cursor: pointer;
+}
+
+/* .contact-form {
+	width: auto;
+	padding: 10px;
+	margin: 0 10px 50px 10px;
+	background-color: #ececec;
+	border-bottom: 6px solid #E0162B;
+	border-bottom: 3px solid #0052A5;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);
+} */
+
+/* .contact-form {
+	width: 70%;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+    margin-left: auto;
+	margin-right: auto;
+	background-color: #ececec;
+	box-shadow:
+	inset 0 -3px 0 #0052A5,
+	inset 0 -6px 0 #fff,
+    inset 0 -9px 0 #E0162B;
+} */
+
+
+
+
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 320px) and (orientation:portrait) {
+	.main-header{
+		width: 100%;
+		margin: 0 auto;
+		top: 0;
+	}
+	
+	.container {
+		align: center;
+		margin-top: 80px;
+		margin-right: auto;
+		margin-bottom: auto;
+		margin-left: auto;
+        padding: 40px 100px 100px;
+        width: 80%;
+	}
+	
+	.demprofile {
+		width: 200px;
+	}
+	
+	.repprofile {
+		width: 200px;
+	}
+
+	.sidenav {
+		padding: 150px 0;
+	  }
+
+	  .sidenav-senator {
+		padding: 150px 0;
+	  }
+
+	  div#contactus {
+		align-items: center;
+		margin-top: 110px;
+	}
+
+	div#form_sample{
+		margin-left: 150px;
+	}
+}
+
+	@media (min-width: 320px) and (orientation:landscape) {
+		.main-header{
+			width: 100%;
+			margin: 0 auto;
+			top: 0;
+		}
+		
+		.container {
+			align: center;
+			margin-top: 60px;
+			margin-right: auto;
+			margin-bottom: auto;
+			margin-left: auto;
+			padding: 40px 100px 100px;
+			width: 80%;
+		}
+		
+		.demprofile {
+			width: 200px;
+		}
+		
+		.repprofile {
+			width: 200px;
+		}
+	
+		.sidenav {
+			padding: 150px 0;
+		}
+	
+		.sidenav-senator {
+			padding: 150px 0;
+		}
+	
+		div#contactus {
+			align-items: center;
+			margin-top: 110px;
+		}
+	
+		div#form_sample{
+			margin-left: 150px;
+		}
+
+}
+
+
+@media (min-width: 768px) and (orientation:portrait) {
+	.main-header{
+		width: 100%;
+		margin: 0 auto;
+		top: 0;
+	}
+
+	.container {
+		margin-top: 80px;
+	}
+
+	.tagline {
+		font-size: 1.4em;
+	}
+
+	div#contactus {
+		align-items: center;
+		margin-top: 110px;
+	}
+
+	div#form_sample{
+		margin-left: 150px;
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.main-header{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.container {
+		margin-top: 0px;
+	}
+
+	.sidenav {
+		padding: 80px 0 0;
+	}
+
+	.sidenav-senator {
+		padding: 80px 0 0;
+	}
+}
