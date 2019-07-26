@@ -563,7 +563,7 @@ a[class="demlink"] {
 			flex-direction: column;
 			flex-grow: 2;
 			margin-top: 60px;
-			margin-left: -40px;
+			margin-left: -70px;
 		}
 	
 		.jefferson-pic {
@@ -572,14 +572,73 @@ a[class="demlink"] {
 			flex-direction: column;
 			flex-grow: 2;
 			margin-top: 0px;
+			margin-left: 150px;
 		}
 
 }
 
 
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+
+@media (min-width: 420px) and (orientation:portrait) {
+	.main-header{
+		width: 100%;
+		margin: 0 auto;
+		top: 0;
+	}
+	
+	.container {
+		align: center;
+		margin-top: 80px;
+		margin-right: auto;
+		margin-bottom: auto;
+		margin-left: auto;
+        padding: 40px 100px 100px;
+        width: 80%;
+	}
+	
+	.demprofile {
+		width: 200px;
+	}
+	
+	.repprofile {
+		width: 200px;
+	}
+
+	.sidenav {
+		padding: 150px 0;
+	  }
+
+	.sidenav-senator {
+		padding: 150px 0;
+	  }
+
+	div#contactus, div#form_sample {
+		margin-top: 50px;
+	}
+
+	.cornerstone-pic {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+		margin-top: 20px;
+		margin-left: -70px;
+	}
+
+	.jefferson-pic {
+		width: 70%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+		margin-top: 0px;
+		margin-left: 150px;
+	}
+}
+
+/* css rules for ipad portrait */
+/* @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   	.ipad-portrait {
-		color: red; } /* css rules for ipad portrait */
+		color: red; } 
 
 	.main-header{
 		width: 100%;
@@ -614,10 +673,9 @@ a[class="demlink"] {
 		flex-direction: column;
 		flex-grow: 2;
 		margin-top: 0px;
-		margin-left: 50%;
+		margin-left: 100px;
 	}
-
-}
+} */
 
 @media (min-width: 768px) {
 
@@ -640,7 +698,7 @@ a[class="demlink"] {
 		display: flex;
 		flex-direction: column;
 		flex-grow: 2;
-		margin-top: 0px;
+		margin-top: 100px;
 		margin-left: 0px;
 	}
 
@@ -650,10 +708,13 @@ a[class="demlink"] {
 		flex-direction: column;
 		flex-grow: 2;
 		margin-top: 0px;
-		margin-left: 50%;
+		margin-left: 300px;
 	}
 
 }
+
+
+
 
 @media (min-width: 768px) and (orientation: landscape) {
 	.main-header{
@@ -675,7 +736,7 @@ a[class="demlink"] {
 		display: flex;
 		flex-direction: column;
 		flex-grow: 2;
-		margin-top: 50px;
+		margin-top: 100px;
 		margin-left: 0px;
 	}
 	
@@ -685,7 +746,7 @@ a[class="demlink"] {
 		flex-direction: column;
 		flex-grow: 2;
 		margin-top: 0px;
-		margin-left: 45%;
+		margin-left: 350px;
 	}
 
 }
@@ -712,5 +773,23 @@ a[class="demlink"] {
 
 	div#contactus, div#form_sample {
 		margin-top: 0px;
+	}
+
+	.cornerstone-pic {
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+	
+	.jefferson-pic {
+		width: 40%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+		margin-top: 0px;
+		margin-left: 45%;
 	}
 }
