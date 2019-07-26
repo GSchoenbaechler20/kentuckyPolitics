@@ -21,7 +21,7 @@ createform.appendChild(namelabel);
 
 var inputelement = document.createElement('input'); // Input Field for Name
 inputelement.setAttribute("type", "text");
-inputelement.setAttribute("name", "dname");
+inputelement.setAttribute("class", "dname");
 createform.appendChild(inputelement);
 
 var linebreak = document.createElement('br');
@@ -33,7 +33,7 @@ createform.appendChild(emaillabel);
 
 var emailelement = document.createElement('input'); // Input Field for E-mail
 emailelement.setAttribute("type", "text");
-emailelement.setAttribute("name", "demail");
+emailelement.setAttribute("class", "demail");
 createform.appendChild(emailelement);
 
 var emailbreak = document.createElement('br');
@@ -44,7 +44,7 @@ messagelabel.innerHTML = "Your Message";
 createform.appendChild(messagelabel);
 
 var texareaelement = document.createElement('textarea');
-texareaelement.setAttribute("name", "dmessage");
+texareaelement.setAttribute("class", "dmessage");
 createform.appendChild(texareaelement);
 
 var messagebreak = document.createElement('br');
@@ -52,6 +52,6 @@ createform.appendChild(messagebreak);
 
 var submitelement = document.createElement('input'); // Submit Button
 submitelement.setAttribute("type", "submit");
-submitelement.setAttribute("name", "dsubmit");
+submitelement.setAttribute("class", "dsubmit");
 submitelement.setAttribute("value", "Submit");
 createform.appendChild(submitelement);

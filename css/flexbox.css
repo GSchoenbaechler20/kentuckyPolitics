@@ -54,7 +54,7 @@
         align-items: center;
     } */
 
-    /* .contactus {
+    /* #contactus {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -88,7 +88,14 @@
         justify-content: space-between;
         /* margin-top: 100px; */
         flex-grow: 1;
+    }
 
+        .container, .inputField {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-around; */
+        flex-wrap: wrap;
+        margin-top: 0px;
     }
 
 	li {
@@ -111,6 +118,7 @@
     } */
 
     div#form_sample {
+        width: auto;
         align-content: center;
         align-items: center;
         display: flex;
@@ -120,12 +128,11 @@
         margin-right: auto;
         margin-bottom: auto;
         margin-left: auto;
-        /* padding: 40px 100px 100px; */
-        width: auto;
         justify-content: flex-start;
     }
 
     div#contactus {
+        width: auto;
         align-content: center;
         align-items: center;
         display: flex;
@@ -135,12 +142,10 @@
         margin-right: auto;
         margin-bottom: auto;
         margin-left: auto;
-        /* padding: 40px 100px 100px; */
-        width: auto;
         justify-content: flex-start;
     }
 
-    .container, .contactForm, .inputField {
+    .container, .inputField {
         display: flex;
         flex-direction: row;
         /* justify-content: space-around; */

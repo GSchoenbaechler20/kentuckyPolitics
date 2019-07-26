@@ -109,6 +109,22 @@ textarea {
 	align: center;
 }
 
+.indexer {
+	position: relative;
+	top: -150px;
+}
+
+.demprofile a[name] {
+	position: relative;
+    top: -75px;
+    display: block;
+}
+
+.repprofile a[name] {
+	position: relative;
+    top: -75px;
+    display: block;
+}
 
 
 
@@ -236,6 +252,7 @@ div#contactus{
 	margin: auto;
 	padding-top: 70px;
 	padding-bottom: 50px;
+	margin-right: 50px;
 }
 
 div#form_sample{
@@ -249,6 +266,22 @@ div#form_sample{
 	border-radius: 6px;
 	background-color: #FFFFFF;
 }
+
+.dname {
+	margin-left: -10px;
+}
+
+.demail {
+	margin-left: -10px;
+}
+
+.dmessage {
+	margin-left: -10px;
+}
+
+/* .dsubmit {
+	margin-left: -10px;
+} */
 
 /* .container #contactus #form_sample form #demail {
 	justify-content: space-evenly;
@@ -304,42 +337,27 @@ input[type="submit"]{
 	cursor: pointer;
 }
 
-.container div#contactus div#form_sample hr {
-	align: center;
-}
 
 
 
 
 
 /* ---- Contact Us ---- */
-.contactForm {
-	width: 30%;
-}
+
 
 .inputField {
 	width: 30%;
 }
 
-.contactForm, .inputField {
+.inputField {
 	align-content: center;
 }  
 
 
-.contact-container {
-	align-content: center;
-	width: 50%;
+#contact-container {
+	width: 100%;
 }
 
-
-
-/* ---- Contact Us ---- */
-.contactme {
-	background-color: #a5a5a5;
-	color: black;
-	width: 50%;
-	
-}
 
 
 
@@ -391,6 +409,10 @@ float:right
 	/* width: 800px; */
 	justify-content: flex-start;
 	overflow-x: hidden;
+}
+
+.pic-container {
+	align-items: center;
 }
 
 .col {
@@ -480,6 +502,24 @@ a[class="demlink"] {
 	cursor: pointer;
 }
 
+.cornerstone-pic {
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	margin-top: 80px;
+	margin-right:40%;
+}
+
+.jefferson-pic {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	margin-top: 10px;
+	margin-left: 50%;
+}
+
 /* .contact-form {
 	width: auto;
 	padding: 10px;
@@ -555,6 +595,23 @@ a[class="demlink"] {
 	div#form_sample{
 		margin-left: 150px;
 	}
+
+	.cornerstone-pic {
+		width: 160%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+		margin-top: -100px;
+		margin-left: -35%;
+	}
+
+	.jefferson-pic {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+		margin-top: 0px;
+	}
 }
 
 	@media (min-width: 320px) and (orientation:landscape) {
@@ -599,10 +656,31 @@ a[class="demlink"] {
 			margin-left: 150px;
 		}
 
+		.cornerstone-pic {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			flex-grow: 2;
+			margin-top: 60px;
+			margin-left: -40px;
+		}
+	
+		.jefferson-pic {
+			width: 70%;
+			display: flex;
+			flex-direction: column;
+			flex-grow: 2;
+			margin-top: 0px;
+			/* margin-left: 40%; */
+		}
+
 }
 
 
-@media (min-width: 768px) and (orientation:portrait) {
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  	.ipad-portrait {
+		color: red; } /* your css rules for ipad portrait */
+
 	.main-header{
 		width: 100%;
 		margin: 0 auto;
@@ -623,10 +701,122 @@ a[class="demlink"] {
 	}
 
 	div#form_sample{
-		margin-left: 150px;
+		margin-left: 30px;
+	}
+
+	.cornerstone-pic {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	
+	.jefferson-pic {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+		margin-top: 0px;
+		margin-left: 50%;
 	}
 
 }
+
+@media (min-width: 768px) {
+
+	.main-header{
+		width: 100%;
+		margin: 0 auto;
+		top: 0;
+	}
+
+	.container {
+		margin-top: 80px;
+	}
+
+	.tagline {
+		font-size: 1.4em;
+	}
+
+	div#contactus {
+		width: 400px;
+		align-items: center;
+		margin-top: 110px;
+		margin-left: 15%;
+	}
+
+	div#form_sample{
+		width: 400px;
+		margin-left: 30px;
+	}
+
+	.cornerstone-pic {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+
+	.jefferson-pic {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+		margin-top: 0px;
+		margin-left: 50%;
+	}
+
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+	.main-header{
+		width: 100%;
+		margin: 0 auto;
+		top: 0;
+	}
+
+	.container {
+		margin-top: 80px;
+	}
+
+	.tagline {
+		font-size: 1.4em;
+	}
+
+	div#contactus {
+		align-items: center;
+		margin-top: 110px;
+	}
+
+	div#form_sample{
+		margin-left: 50px;
+	}
+
+	.cornerstone-pic {
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+		margin-top: 50px;
+		margin-left: 0px;
+	}
+	
+	.jefferson-pic {
+		width: 40%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+		margin-top: 0px;
+		margin-left: 45%;
+	}
+
+}
+
+
 
 @media (min-width: 1025px) {
 	.main-header{
@@ -645,4 +835,21 @@ a[class="demlink"] {
 	.sidenav-senator {
 		padding: 80px 0 0;
 	}
+
+	/* .cornerstone-pic {
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		margin-top: 50px;
+	}
+	
+	.jefferson-pic {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		margin-top: 0px;
+		margin-left: 50%;
+	} */
 }
