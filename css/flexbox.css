@@ -31,15 +31,12 @@
         align-content: center;
         display: flex;
         flex-direction: column;
-        /* margin-top: 180px; */
         flex-wrap: wrap;
         margin-right: auto;
         margin-bottom: auto;
         margin-left: auto;
-        /* padding: 40px 100px 100px; */
         width: auto;
         justify-content: flex-start;
-        /* margin-top: 100px; */
     }
 
     .contactus, .container, .main-footer {
@@ -49,10 +46,6 @@
         justify-content: space-around;
         align-items: center;
     }
-
-    /* .contact-form {
-        align-items: center;
-    } */
 
     /* #contactus {
         display: flex;
@@ -83,17 +76,14 @@
         margin-right: auto;
         margin-bottom: auto;
         margin-left: auto;
-        /* padding: 40px 100px 100px; */
         width: auto;
         justify-content: space-between;
-        /* margin-top: 100px; */
         flex-grow: 1;
     }
 
         .container, .inputField {
         display: flex;
         flex-direction: row;
-        /* justify-content: space-around; */
         flex-wrap: wrap;
         margin-top: 0px;
     }
@@ -113,47 +103,11 @@
         align-items: baseline;
 	}
 
-    /* .profile {
-        margin: 10px;
-    } */
-
-    div#form_sample {
-        width: auto;
-        align-content: center;
-        align-items: center;
+    .container {
         display: flex;
         flex-direction: row;
-        margin-top: 0px;
-        flex-wrap: wrap;
-        margin-right: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        justify-content: flex-start;
-    }
-
-    div#contactus {
-        width: auto;
-        align-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        margin-top: 0px;
-        flex-wrap: wrap;
-        margin-right: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        justify-content: flex-start;
-    }
-
-    .container, .inputField {
-        display: flex;
-        flex-direction: row;
-        /* justify-content: space-around; */
         flex-wrap: wrap;
         margin-top: 0px;
     }
 
-    div#contactus div#form_sample {
-        align-content: center;
-    }
 }
